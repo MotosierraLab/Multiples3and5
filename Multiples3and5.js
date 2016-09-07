@@ -1,4 +1,4 @@
-// Multiples of 3 and 5
+// _Multiples of 3 and 5_
 
 var arr = [];
 function array(){
