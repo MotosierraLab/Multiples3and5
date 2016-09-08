@@ -1,4 +1,6 @@
 
+// Multiples of 3 and 5
+// #7
 
 var arr = [];
 function array(){
@@ -9,7 +11,6 @@ return arr;
 }
 
 array();
-
 var arrMultiples = [];
 
 arr.map(function(num){
@@ -33,22 +34,7 @@ Counter.prototype.add = function(array) {
 };
 
 var sumOfMultiples = new Counter();
-
-sumOfMultiples.add(arrMultiples);
-//console.log(sumOfMultiples.sum);
-
-
-//console.log('Los multiplos de 3 & 5 en un arry de 100 son ' + arrMultiples);
-
-console.log('The sum of multiples is :' + sumOfMultiples.su
-
 sumOfMultiples.add(arrMultiples);
 
 
-//console.log('The sum of multiples is :' + sumOfMultiples.sum);
-//>>>>>>> db64242719fd1a714478c6a2487c1764ba770eb5
-
-
-
-
-
+console.log('The sum of multiples is :' + sumOfMultiples.sum);
